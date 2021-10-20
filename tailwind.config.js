@@ -7,6 +7,9 @@ module.exports = {
     container: {
       center: true,
     },
+    card: {
+      
+    },
     extend: {
       backgroundImage: {
         'hero-img': "url('./public/background.jpg')"
