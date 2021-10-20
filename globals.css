@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;700;900&display=swap');
+
+.basic-box {
+    min-height: 80vh;
+}
+
+.diagonal-box {
+    transform: skewY(-11deg)
+}
+
+.topheader {
+    width: 100%;
+    height: 30px;
+}

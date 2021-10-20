@@ -1,4 +1,5 @@
 import NextAuth from "next-auth"
+import Providers from "next-auth/providers"
 
 export default NextAuth({
     callbacks: {
@@ -7,7 +8,7 @@ export default NextAuth({
         },
     },
   // Configure one or more authentication providers
-  providers: [
+    providers: [
     // ...add more providers here
   ],
 })
