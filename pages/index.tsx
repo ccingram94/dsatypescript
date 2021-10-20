@@ -8,6 +8,9 @@ import Footer from '../components/footer'
 import DataStructuresAbout from '../components/datastructuresabout'
 import AlgosAbout from '../components/algosabout'
 import ComplexityAbout from '../components/complexityabout'
+import DSCard from '../components/dscard'
+import AlgoCard from '../components/algocard'
+import BigOCard from '../components/bigocard'
 import logo from '../public/logo.png'
 
 const Home: NextPage = () => {
@@ -23,12 +26,12 @@ const Home: NextPage = () => {
       <Header/>
         <div className="basic-box bg-cover bg-hero-img background relative bg-gradient-to-r from-red-200 via-red-300 to-yellow-200" >
           <div className="container mx-auto flex px-5 py-48 items-center justify-center flex-col">
-            <h1 className="font-black text-6xl font-bold text-pink-900 text-center title-font sm:text-4x1 text-3x1 mb-4 mt-4 font-large"> 🌸 🌸 🌸 </h1>
+          <h1 className="font-black text-6xl font-bold text-pink-900 text-center title-font sm:text-4x1 text-3x1 mb-4 mt-4 font-large"> 🌸 🌸 🌸 </h1>
             <h1 className="font-black text-6xl font-bold text-pink-900 text-center title-font sm:text-4x1 text-3x1 mb-4 mt-4 font-large">Data Structures and Algorithms</h1>
-            <div className="flex flex-row flex-wrap justify-center items-center content-center">
-              <Link href="/datastructures"><button className="text-pink-600 m-6 bg-transparent border border-solid border-pink-600 hover:bg-pink-600 hover:text-white active:bg-pink-600 font-bold uppercase px-8 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button"> 🌸 Data Structures 🌸 </button></Link>
-              <Link href="/algorithms"><button className="text-pink-600 m-6 bg-transparent border border-solid border-pink-600 hover:bg-pink-600 hover:text-white active:bg-pink-600 font-bold uppercase px-8 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button"> 🌸 Algorithms 🌸 </button></Link>
-              <Link href="/bigo"><button className="text-pink-600 m-6 bg-transparent border border-solid border-pink-600 hover:bg-pink-600 hover:text-white active:bg-pink-600 font-bold uppercase px-8 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button"> 🌸 Big O 🌸 </button></Link>
+            <div className="flex flex-row flex-wrap justify-center items-center content-center space-x-10">
+              <DSCard />
+              <AlgoCard />
+              <BigOCard />
             </div>
           </div>
         </div>
