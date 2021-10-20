@@ -6,6 +6,7 @@
 
 .basic-box {
     min-height: 80vh;
+    padding: 10px;
 }
 
 .diagonal-box {
