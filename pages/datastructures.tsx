@@ -9,7 +9,7 @@ import DataStructuresAbout from '../components/datastructuresabout'
 import AlgosAbout from '../components/algosabout'
 import ComplexityAbout from '../components/complexityabout'
 
-const Explore: NextPage = () => {
+const DataStructures: NextPage = () => {
   return (
     <div>
       <Head>
@@ -22,18 +22,18 @@ const Explore: NextPage = () => {
       <Header/>
         <div className="basic-box bg-red-300 bg-cover">
           <Link href="/">
-          <h1 className="text-6xl p-3 text-center">🌸</h1>
+            <h1 className="text-6xl p-3 text-center">🌸</h1>
           </Link>
           <Link href="/">
-          <h2 className="font-bold text-pink-900 text-6xl text-center p-3">Explore Topics</h2>
+            <h2 className="font-bold text-pink-900 text-6xl text-center p-3">Data Structures</h2>
           </Link>
-          <DataStructuresAbout />
-          <AlgosAbout />
-          <ComplexityAbout />
-        </div>
-        <div className="basic-box bg-pink-900 bg-cover">
-          <h1 className="text-6xl p-3 text-center">🌸</h1>
-          <h2 className="font-bold text-red-200 text-3xl text-center p-3">Explore Even More</h2>
+          <div className="container flex flex-col flex-wrap justify-center mx-auto rounded-xl bg-cover bg-hero-img shadow-xl p-10 m-10">
+            <div className="text-pink-900 text-lg text-center">
+              <p className="leading-loose mb-2">Data structures are useful ways of storing data.</p>
+              <p className="leading-loose mb-2">Abstract Data Types like the ones we will explore describe the values and operations (but not the implementation) of the data type.</p>
+              <p className="leading-loose mb-2">Common data structures include arrays, linked lists, trees, hash tables, and graphs.</p>
+            </div>
+          </div>
         </div>
     </main>
     <Footer />
@@ -41,5 +41,5 @@ const Explore: NextPage = () => {
   )
 }
 
-export default Explore
+export default DataStructures
 

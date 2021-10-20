@@ -5,12 +5,8 @@ import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import Header from '../components/header'
 import Footer from '../components/footer'
-import DataStructuresAbout from '../components/datastructuresabout'
-import AlgosAbout from '../components/algosabout'
-import ComplexityAbout from '../components/complexityabout'
-import logo from '../public/logo.png'
 
-const Home: NextPage = () => {
+const DataStructures: NextPage = () => {
   return (
     <div>
       <Head>
@@ -26,18 +22,15 @@ const Home: NextPage = () => {
             <h1 className="font-black text-6xl font-bold text-pink-900 text-center title-font sm:text-4x1 text-3x1 mb-4 mt-4 font-large"> 🌸 🌸 🌸 </h1>
             <h1 className="font-black text-6xl font-bold text-pink-900 text-center title-font sm:text-4x1 text-3x1 mb-4 mt-4 font-large">Data Structures and Algorithms</h1>
             <div className="flex flex-row flex-wrap justify-center items-center content-center">
-              <Link href="/datastructures"><button className="text-pink-600 m-6 bg-transparent border border-solid border-pink-600 hover:bg-pink-600 hover:text-white active:bg-pink-600 font-bold uppercase px-8 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button"> 🌸 Data Structures 🌸 </button></Link>
-              <Link href="/algorithms"><button className="text-pink-600 m-6 bg-transparent border border-solid border-pink-600 hover:bg-pink-600 hover:text-white active:bg-pink-600 font-bold uppercase px-8 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button"> 🌸 Algorithms 🌸 </button></Link>
-              <Link href="/bigo"><button className="text-pink-600 m-6 bg-transparent border border-solid border-pink-600 hover:bg-pink-600 hover:text-white active:bg-pink-600 font-bold uppercase px-8 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button"> 🌸 Big O 🌸 </button></Link>
+              <Link href="/"><button className="text-pink-600 m-6 bg-transparent border border-solid border-pink-600 hover:bg-pink-600 hover:text-white active:bg-pink-600 font-bold uppercase px-8 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button"> 🌸 Data Structures 🌸 </button></Link>
+              <Link href="/"><button className="text-pink-600 m-6 bg-transparent border border-solid border-pink-600 hover:bg-pink-600 hover:text-white active:bg-pink-600 font-bold uppercase px-8 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button"> 🌸 Algorithms 🌸 </button></Link>
+              <Link href="/"><button className="text-pink-600 m-6 bg-transparent border border-solid border-pink-600 hover:bg-pink-600 hover:text-white active:bg-pink-600 font-bold uppercase px-8 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button"> 🌸 Big O 🌸 </button></Link>
             </div>
           </div>
         </div>
         <div className="basic-box bg-pink-900 bg-cover">
           <h1 className="text-6xl p-3 text-center">🌸</h1>
           <h2 className="font-bold text-red-200 text-6xl text-center p-3 mb-4">Explore Topics</h2>
-          <DataStructuresAbout />
-          <AlgosAbout />
-          <ComplexityAbout />
         </div>
         <div className="basic-box bg-red-300 bg-cover">
           <h1 className="text-6xl p-3 text-center">🌸</h1>
@@ -49,5 +42,5 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default DataStructures
 
