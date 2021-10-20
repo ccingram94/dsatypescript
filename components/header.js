@@ -5,7 +5,7 @@ import logo from '../public/logo.png'
 function Header() {
     return (
         <div>
-            <header className="sticky top-0 z-1 bg-red-200 navbar shadow-lg bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 border-b-2 border-pink-600">
+            <header className="sticky top-0 z-1 bg-red-200 navbar shadow-lg bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 border-b-2 border-pink-600 bg-hero-img">
                     <div className="flex p-10 items-center justify-end h-16">
                         <div className="flex flex-row">
                             <Link href="/">
