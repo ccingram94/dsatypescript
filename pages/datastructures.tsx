@@ -11,6 +11,11 @@ import ComplexityAbout from '../components/complexityabout'
 import ArrowLeft from '@heroicons/react/outline/ArrowCircleLeftIcon'
 import DSCard from '../components/dscard'
 import ArrayCard from '../components/arraycard'
+import StackCard from '../components/stackcard'
+import QueueCard from '../components/queuecard'
+import LinkedListCard from '../components/linkedlistcard'
+import TreeCard from '../components/treecard'
+import HashTableCard from '../components/hashtablecard'
 
 
 const DataStructures: NextPage = () => {
@@ -36,8 +41,13 @@ const DataStructures: NextPage = () => {
               <p className="leading-loose mb-2">Common data structures include <strong>arrays, linked lists, trees, hash tables, and graphs.</strong></p>
             </div>
           </div>
-          <div className="flex flex-row flex-wrap container mx-auto">
+          <div className="flex flex-row flex-wrap container mx-auto space-x-10 justify-center items-center flex-grow">
             <ArrayCard />
+            <StackCard />
+            <QueueCard />
+            <LinkedListCard />
+            <TreeCard />
+            <HashTableCard />
           </div>
         </div>
     </main>
