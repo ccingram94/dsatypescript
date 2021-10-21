@@ -37,7 +37,8 @@ const Queue: NextPage = () => {
           </div>
           <div className="container flex flex-col flex-wrap justify-center mx-auto rounded-xl bg-cover bg-hero-img shadow-xl p-10 m-10">
             <div className="text-pink-900 text-lg text-center">
-              <p className="leading-loose mb-2">An <strong>queue</strong> is a <strong>"First-In-First-Out"</strong> collection of elements.</p>
+              <p className="leading-loose mb-2">A <strong>queue</strong> is a <strong>"First-In-First-Out"</strong> collection of elements.</p>
+              <p className="leading-loose mb-2">Queue operations include <strong>enqueue</strong> (add element to back), <strong>dequeue</strong> (remove element from front), <strong>peek</strong> (see frontmost element), and <strong>isEmpty</strong> (see if queue is empty).</p>
             </div>
           </div>
           <div className="flex flex-row flex-wrap container mx-auto space-x-10 justify-center items-center w-full">

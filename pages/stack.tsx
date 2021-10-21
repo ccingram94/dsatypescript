@@ -37,7 +37,8 @@ const Stack: NextPage = () => {
           </div>
           <div className="container flex flex-col flex-wrap justify-center mx-auto rounded-xl bg-cover bg-hero-img shadow-xl p-10 m-10">
             <div className="text-pink-900 text-lg text-center">
-              <p className="leading-loose mb-2">An <strong>stack</strong> is a <strong>"Last-In-First-Out"</strong> collection of elements.</p>
+              <p className="leading-loose mb-2">A <strong>stack</strong> is a <strong>"Last-In-First-Out"</strong> collection of elements.</p>
+              <p className="leading-loose mb-2">Stack operations include <strong>push</strong> (add element to top), <strong>pop</strong> (remove element from top), <strong>peek</strong> (see top element), and <strong>isEmpty</strong> (return whether stack is empty).</p>
             </div>
           </div>
           <div className="flex flex-row flex-wrap container mx-auto space-x-10 justify-center items-center w-full">
