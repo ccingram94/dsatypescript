@@ -16,6 +16,7 @@ import QueueCard from '../components/queuecard'
 import LinkedListCard from '../components/linkedlistcard'
 import TreeCard from '../components/treecard'
 import HashTableCard from '../components/hashtablecard'
+import GraphCard from '../components/graphcard'
 
 
 const DataStructures: NextPage = () => {
@@ -48,6 +49,7 @@ const DataStructures: NextPage = () => {
             <LinkedListCard />
             <TreeCard />
             <HashTableCard />
+            <GraphCard />
           </div>
         </div>
     </main>

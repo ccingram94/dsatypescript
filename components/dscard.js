@@ -9,7 +9,7 @@ function DSCard() {
         <div>
             <div className="container mx-auto flex flex-col flex-wrap justify-center rounded-xl bg-cover bg-hero-img shadow-xl p-10 m-10 max-w-md">
                 <div className="container flex flex-col flex-wrap justify-center mx-auto flex-1">
-                <Link href="/bigo">
+                <Link href="/datastructures">
                     <div className="flex flex-row flex-wrap justify-center items-center text-pink-900 hover:text-pink-600 ease-linear transition-all">
                         <h1 className="font-bold text-center text-4xl p-5"> Data Structures </h1>
                         <ArrowRight className=" h-12 w-12"/>

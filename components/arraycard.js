@@ -11,12 +11,11 @@ function ArrayCard() {
                 <div className="container flex flex-col flex-wrap justify-center mx-auto flex-1">
                 <Link href="/bigo">
                     <div className="flex flex-row flex-wrap justify-center items-center text-pink-900 hover:text-pink-600 ease-linear transition-all">
-                        <h1 className="font-bold text-center text-4xl p-5"> Arrays </h1>
+                        <h1 className="font-bold text-center text-4xl p-5"> Array </h1>
                         <ArrowRight className=" h-12 w-12"/>
                     </div>
                     </Link>
                     <div className="text-center text-pink-900 p-3">
-                        <p>linear data structure</p>
                         <p>elements in contiguous memory</p>
                     </div>
                 </div>

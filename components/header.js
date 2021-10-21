@@ -8,6 +8,9 @@ function Header() {
             <header className="sticky top-0 z-1 bg-red-200 navbar shadow-lg bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 border-b-2 border-pink-600 bg-hero-img">
                     <div className="flex p-10 items-center justify-end h-16">
                         <div className="flex flex-row">
+                            <Link href="/">
+                                <p1 className="text-pink-600 font-bold uppercase px-4 py-3 hover:text-pink-900 ease-linear transition-all duration-150">Home</p1>
+                            </Link>
                             <Link href="/explore">
                                 <p1 className="text-pink-600 font-bold uppercase px-8 py-3 hover:text-pink-900 ease-linear transition-all duration-150">Explore</p1>
                             </Link>
