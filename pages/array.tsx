@@ -37,8 +37,8 @@ const Array: NextPage = () => {
           </div>
           <div className="container flex flex-col flex-wrap justify-center mx-auto rounded-xl bg-cover bg-hero-img shadow-xl p-10 m-10">
             <div className="text-pink-900 text-lg text-center">
-              <p className="leading-loose mb-2">An <strong>array</strong> is a series of items (called <strong>"elements"</strong>) held in <strong>contiguous memory</strong> locations.</p>
-              <p className="leading-loose mb-2">Arrays are <strong>zero-indexed</strong> meaning the <strong>first element is index 0</strong>, the second element is index 1, the third element is index 2, and so on.</p>
+              <p className="leading-loose mb-2">An <strong>array</strong> is a series of items (called <strong>"elements"</strong>) held in <strong>contiguous memory</strong> locations.  Each element's position in the array is called its <strong>index</strong>.</p>
+              <p className="leading-loose mb-2">Arrays are <strong>zero-indexed</strong> meaning the <strong>first element is index 0</strong>, the second element is index 1, and so on.</p>
               <p className="leading-loose mb-2">Traditional arrays are <strong>static</strong>, meaning <strong>memory is allocated at compile time</strong>.  
               We must initalize the array with the maximum number of elements it can hold so the memory can be properly allocated when the program compiles.
               By contrast, a <strong>dynamic array</strong> (commonly called an <strong>ArrayList</strong>) automatically resizes itself by <strong>allocating memory during runtime</strong>.

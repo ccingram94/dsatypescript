@@ -37,7 +37,7 @@ const Tree: NextPage = () => {
           </div>
           <div className="container flex flex-col flex-wrap justify-center mx-auto rounded-xl bg-cover bg-hero-img shadow-xl p-10 m-10">
             <div className="text-pink-900 text-lg text-center">
-              <p className="leading-loose mb-2">A <strong>tree</strong> is a heirarchy of <strong>nodes</strong> which hold <strong>data</strong> and <strong>pointers</strong> to <strong>child nodes</strong>.</p>
+              <p className="leading-loose mb-2">A <strong>tree</strong> is a heirarchy of <strong>nodes</strong>.  Each node holds <strong>data</strong> and <strong>pointers</strong> to its <strong>child nodes</strong>.</p>
               <p className="leading-loose mb-2">The first node in a tree is called the <strong>root node</strong>.</p>
               <p className="leading-loose mb-2">A node with no child nodes is called a <strong>leaf node</strong>.</p>
               <p className="leading-loose mb-2">In a <strong>binary tree</strong>, each node has exactly two children (a <strong>right child</strong> and <strong>left child</strong>).</p>
