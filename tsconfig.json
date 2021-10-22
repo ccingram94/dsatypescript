@@ -17,6 +17,6 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/api/[...nextauth].js", "components/unauthorized.js"],
+  "include": ["types/next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/api/[...nextauth].js", "components/unauthorized.js", "pages/api/auth/[...nextauth].js"],
   "exclude": ["node_modules"]
 }
