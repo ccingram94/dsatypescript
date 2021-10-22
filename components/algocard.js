@@ -18,13 +18,6 @@ function AlgoCard() {
                     <div className="text-center text-pink-900 p-3">
                         <p>Explore common algorithms.</p>
                     </div>
-                    <div className="container mx-auto flex flex-row flex-wrap justify-center items-center content-center">
-                        <Link href="/"><button className="text-pink-600 bg-transparent border border-solid border-pink-600 hover:bg-pink-600 hover:text-white active:bg-pink-600 font-bold uppercase px-8 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button"> 🌸 Array </button></Link>
-                        <Link href="/"><button className="text-pink-600 bg-transparent border border-solid border-pink-600 hover:bg-pink-600 hover:text-white active:bg-pink-600 font-bold uppercase px-8 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button"> 🌸 Linked List </button></Link>
-                        <Link href="/"><button className="text-pink-600 bg-transparent border border-solid border-pink-600 hover:bg-pink-600 hover:text-white active:bg-pink-600 font-bold uppercase px-8 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button"> 🌸 Tree </button></Link>
-                        <Link href="/"><button className="text-pink-600 bg-transparent border border-solid border-pink-600 hover:bg-pink-600 hover:text-white active:bg-pink-600 font-bold uppercase px-8 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button"> 🌸 Hash Table </button></Link>
-                        <Link href="/"><button className="text-pink-600 bg-transparent border border-solid border-pink-600 hover:bg-pink-600 hover:text-white active:bg-pink-600 font-bold uppercase px-8 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button"> 🌸 Graph </button></Link>
-                    </div>
                 </div>
             </div>
         </div>
