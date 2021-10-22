@@ -9,12 +9,12 @@ function Header() {
                     <div className="flex p-10 items-center justify-end h-16">
                         <div className="flex flex-row">
                             <Link href="/">
-                                <p1 className="text-pink-600 font-bold uppercase px-4 py-3 hover:text-pink-900 ease-linear transition-all duration-150">Home</p1>
+                                <p1 className="text-pink-600 font-bold uppercase px-2 py-3 hover:text-pink-900 ease-linear transition-all duration-150">Home</p1>
                             </Link>
                             <Link href="/explore">
-                                <p1 className="text-pink-600 font-bold uppercase px-8 py-3 hover:text-pink-900 ease-linear transition-all duration-150">Explore</p1>
+                                <p1 className="text-pink-600 font-bold uppercase px-2 py-3 hover:text-pink-900 ease-linear transition-all duration-150">Explore</p1>
                             </Link>
-                            <button className="text-pink-600 bg-transparent border border-solid border-pink-900 hover:bg-pink-900 hover:text-white active:bg-pink-600 font-bold uppercase px-8 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">Sign In</button>
+                            <button className="text-pink-600 bg-transparent border border-solid border-pink-900 hover:bg-pink-900 hover:text-white active:bg-pink-600 font-bold uppercase px-4 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">Sign In</button>
                         </div>
                     </div>
             </header>
