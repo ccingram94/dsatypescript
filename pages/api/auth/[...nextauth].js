@@ -6,7 +6,18 @@ export default NextAuth({
         Providers.Okta({
           clientId: process.env.OKTA_CLIENTID,
           clientSecret: process.env.OKTA_CLIENTSECRET,
-          domain: process.env.OKTA_DOMAIN
+          domain: process.env.OKTA_DOMAIN,
         }),
+        Providers.Email({
+          server: {
+            host: "",
+            port: "",
+            auth: {
+              user: "",
+              pass: "",
+            }
+          },
+          from: "",
+        })
     ]
 });
