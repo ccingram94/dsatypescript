@@ -17,6 +17,7 @@ import LinkedListCard from '../components/linkedlistcard'
 import TreeCard from '../components/treecard'
 import HashTableCard from '../components/hashtablecard'
 import GraphCard from '../components/graphcard'
+import PythonQueue from '../components/pythonqueue'
 
 
 const Queue: NextPage = () => {
@@ -40,6 +41,9 @@ const Queue: NextPage = () => {
               <p className="leading-loose mb-2">A <strong>queue</strong> is a <strong>"First-In-First-Out"</strong> collection of elements.</p>
               <p className="leading-loose mb-2">Queue operations include <strong>enqueue</strong> (add element to back), <strong>dequeue</strong> (remove element from front), <strong>peek</strong> (see frontmost element), and <strong>isEmpty</strong> (see if queue is empty).</p>
             </div>
+          </div>
+          <div className="flex flex-row flex-wrap justify-center text-start">
+              <PythonQueue />
           </div>
           <div className="flex flex-row flex-wrap container mx-auto space-x-10 justify-center items-center w-full">
             <ArrayCard />

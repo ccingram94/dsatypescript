@@ -17,6 +17,7 @@ import LinkedListCard from '../components/linkedlistcard'
 import TreeCard from '../components/treecard'
 import HashTableCard from '../components/hashtablecard'
 import GraphCard from '../components/graphcard'
+import PythonStack from '../components/pythonstack'
 
 
 const Stack: NextPage = () => {
@@ -40,6 +41,9 @@ const Stack: NextPage = () => {
               <p className="leading-loose mb-2">A <strong>stack</strong> is a <strong>"Last-In-First-Out"</strong> collection of elements.</p>
               <p className="leading-loose mb-2">Stack operations include <strong>push</strong> (add element to top), <strong>pop</strong> (remove element from top), <strong>peek</strong> (see top element), and <strong>isEmpty</strong> (return whether stack is empty).</p>
             </div>
+          </div>
+          <div className="flex flex-row flex-wrap justify-center text-start">
+              <PythonStack />
           </div>
           <div className="flex flex-row flex-wrap container mx-auto space-x-10 justify-center items-center w-full">
             <ArrayCard />

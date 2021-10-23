@@ -17,6 +17,7 @@ import LinkedListCard from '../components/linkedlistcard'
 import TreeCard from '../components/treecard'
 import HashTableCard from '../components/hashtablecard'
 import GraphCard from '../components/graphcard'
+import PythonLinkedList from '../components/pythonlinkedlist'
 
 
 const LinkedList: NextPage = () => {
@@ -39,8 +40,12 @@ const LinkedList: NextPage = () => {
             <div className="text-pink-900 text-lg text-center">
               <p className="leading-loose mb-2">A <strong>linked list</strong> is a series of <strong>nodes</strong>. Each node holds <strong>data</strong> and a <strong>pointer</strong> to the next node.</p>
               <p className="leading-loose mb-2">The first node of a linked list is called the <strong>head node</strong>.  An empty linked list's head node will point to <strong>None</strong> or <strong>NULL</strong>.</p>
-              <p className="leading-loose mb-2">Linked list operations include <strong>addNode</strong> (add node to list), <strong>deleteNode</strong> (delete node from list), <strong>isEmpty</strong> (see if list is empty), <strong>search</strong> (find certain node), and <strong>size</strong> (return number of nodes in the list).</p>
+              <p className="leading-loose mb-2">Linked list operations include <strong>addNode</strong> (add node to list), <strong>deleteNode</strong> (delete node from list), <strong>isEmpty</strong> (see if list is empty), <strong>search</strong> (find certain node), and <strong>size</strong> (return number of nodes in the list).
+              Linked Lists can be ordered or unordered.  For simplicity, we will implement an unordered linked list where each new node is added as the new head node.</p>
             </div>
+          </div>
+          <div className="flex flex-row flex-wrap justify-center text-start">
+              <PythonLinkedList />
           </div>
           <div className="flex flex-row flex-wrap container mx-auto space-x-10 justify-center items-center w-full">
             <ArrayCard />

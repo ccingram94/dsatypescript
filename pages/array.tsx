@@ -17,6 +17,8 @@ import LinkedListCard from '../components/linkedlistcard'
 import TreeCard from '../components/treecard'
 import HashTableCard from '../components/hashtablecard'
 import GraphCard from '../components/graphcard'
+import PythonList from '../components/pythonlist'
+import PythonArray from '../components/pythonarray'
 
 
 const Array: NextPage = () => {
@@ -45,6 +47,10 @@ const Array: NextPage = () => {
               </p>
               <p className="leading-loose mb-2">Traditional arrays hold elements of the <strong>same type</strong>.</p>
             </div>
+          </div>
+          <div className="flex flex-row flex-wrap justify-center text-start">
+              <PythonList />
+              <PythonArray />
           </div>
           <div className="flex flex-row flex-wrap container mx-auto space-x-10 justify-center items-center w-full">
             <ArrayCard />

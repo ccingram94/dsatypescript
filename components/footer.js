@@ -11,10 +11,10 @@ function Footer() {
                                 <div className="flex flex-col m-2">
                                     <span className="font-bold text-pink-300 uppercase mb-2">🌸 Data Structures</span>
                                     <span className="my-2 text-pink-300"><Link href="/array">Array</Link></span>
-                                    <span className="my-2 text-pink-300"><Link href="/">Linked List</Link></span>
-                                    <span className="my-2 text-pink-300"><Link href="/">Tree</Link></span>
-                                    <span className="my-2 text-pink-300"><Link href="/">Hash Table</Link></span>
-                                    <span className="my-2 text-pink-300"><Link href="/">Graph</Link></span>
+                                    <span className="my-2 text-pink-300"><Link href="/linkedlist">Linked List</Link></span>
+                                    <span className="my-2 text-pink-300"><Link href="/tree">Tree</Link></span>
+                                    <span className="my-2 text-pink-300"><Link href="/hashtable">Hash Table</Link></span>
+                                    <span className="my-2 text-pink-300"><Link href="/graph">Graph</Link></span>
                                 </div>
                                 <div className="flex flex-col m-2">
                                     <span className="font-bold text-pink-300 uppercase mb-2">🌸 Algorithms</span>
