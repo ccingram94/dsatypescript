@@ -12,8 +12,6 @@ import DSCard from '../components/dscard'
 import AlgoCard from '../components/algocard'
 import BigOCard from '../components/bigocard'
 import logo from '../public/logo.png'
-import Unauthorized from '../components/unauthorized'
-import { useSession } from 'next-auth/react'
 
 const Home: NextPage = () => {
   return (
