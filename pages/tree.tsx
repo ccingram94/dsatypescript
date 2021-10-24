@@ -17,6 +17,7 @@ import LinkedListCard from '../components/linkedlistcard'
 import TreeCard from '../components/treecard'
 import HashTableCard from '../components/hashtablecard'
 import GraphCard from '../components/graphcard'
+import PythonTree from '../components/pythontree'
 
 
 const Tree: NextPage = () => {
@@ -40,9 +41,13 @@ const Tree: NextPage = () => {
               <p className="leading-loose mb-2">A <strong>tree</strong> is a heirarchy of <strong>nodes</strong>.  Each node holds <strong>data</strong> and <strong>pointers</strong> to its <strong>child nodes</strong>.</p>
               <p className="leading-loose mb-2">The first node in a tree is called the <strong>root node</strong>.</p>
               <p className="leading-loose mb-2">A node with no child nodes is called a <strong>leaf node</strong>.</p>
-              <p className="leading-loose mb-2">In a <strong>binary tree</strong>, each node has exactly two children (a <strong>right child</strong> and <strong>left child</strong>).</p>
+              <p className="leading-loose mb-2">In a <strong>binary tree</strong>, each node has exactly two children (a <strong>right child</strong> and <strong>left child</strong>).
+              Here we will implement a simple binary tree.</p>
               <p className="leading-loose mb-2">In a <strong>trie</strong> (also called a <strong>prefix tree</strong>), </p>
             </div>
+          </div>
+          <div className="flex flex-row flex-wrap justify-center text-start">
+              <PythonTree />
           </div>
           <div className="flex flex-row flex-wrap container mx-auto space-x-10 justify-center items-center w-full">
             <ArrayCard />

@@ -17,6 +17,7 @@ import LinkedListCard from '../components/linkedlistcard'
 import TreeCard from '../components/treecard'
 import HashTableCard from '../components/hashtablecard'
 import GraphCard from '../components/graphcard'
+import PythonHashTable from '../components/pythonhashtable'
 
 
 const HashTable: NextPage = () => {
@@ -39,6 +40,9 @@ const HashTable: NextPage = () => {
             <div className="text-pink-900 text-lg text-center">
               <p className="leading-loose mb-2">A <strong>hash table</strong> is a map of <strong>keys</strong> and <strong>values</strong>.</p>
             </div>
+          </div>
+          <div className="flex flex-row flex-wrap justify-center text-start">
+              <PythonHashTable />
           </div>
           <div className="flex flex-row flex-wrap container mx-auto space-x-10 justify-center items-center w-full">
             <ArrayCard />

@@ -2,7 +2,7 @@
 function PythonLinkedList() {
     return (
         <div>
-            <div className="bg-pink-900 text-red-300 py-4 px-4 rounded-xl min-w-full">
+            <div className="bg-pink-900 text-red-300 py-4 px-4 rounded-xl max-w-7xl">
             <pre>
                 <code>linkedlist.py</code><br/><br/>
                 <code>#create class Node</code><br/>
